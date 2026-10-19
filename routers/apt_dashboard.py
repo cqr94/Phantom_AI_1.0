@@ -11,7 +11,7 @@ router = APIRouter(tags=["APT Hunt Dashboard"])
 
 NEO4J_URI = os.getenv("NEO4J_URI", "bolt://localhost:7687")
 NEO4J_USER = os.getenv("NEO4J_USER", "neo4j")
-NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "jawmi6-cujbez-zeqMyz")
+NEO4J_PASSWORD = os.getenv("NEO4J_PASSWORD", "")
 
 driver = GraphDatabase.driver(
     NEO4J_URI,

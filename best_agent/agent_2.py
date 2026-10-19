@@ -38,7 +38,7 @@ OLLAMA_URL      = os.getenv("OLLAMA_URL",   "http://host.docker.internal:11434")
 OLLAMA_MODEL    = os.getenv("OLLAMA_MODEL", "llama3.2:latest")
 VERIFIER_MODEL    = os.getenv("OLLAMA_MODEL", "qwen2.5-coder:latest")
 
-API_KEY = "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"
+API_KEY = "some_api_key"
 #VERIFIER_MODEL  = os.getenv("VERIFIER_MODEL", "llama3.2:latest")  # can point to a faster model
 
 API_TIMEOUT            = int(os.getenv("API_TIMEOUT",            "180"))
